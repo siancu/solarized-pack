@@ -18,7 +18,7 @@ Afterwards, create a `~/.emacs-live.el` file and use the function `live-add-pack
 
 ### Official emacs-live
 
-If you prefer to use emacs-live from the official repository, then first clone solarized-pack into a folder (for example `~/.live-packs/solarized-pack`).
+If you prefer to use emacs-live from the official repository, then first clone solarized-pack into a folder (for example `~/.live-packs/solarized-pack`). You need to either `git clone --recursive` or initialise the solarized submodule `git submodule update --init`.
 
 Then create a `~/.emacs-live.el` file and use the function `live-add-packs` to load the solarized-pack:
 
